@@ -1,0 +1,1 @@
+Write a javascript to display tables from 1 to 10
