@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quadratic Equation</title>
+	<script src="qe.js">
+	</script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="qe.css">
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>QUADRATIC EQUATION</h1>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <form class="col-md-8 m-b-md">
+            <div class="form-group m-b-md" style="text-align: left;">
+                <label for="a">Enter Coefficient a:</label>
+                <input type="number" id="a" class="form-control m-b-md" placeholder="Coefficient a" required>
+            </div>
+            <div class="form-group m-b-md" style="text-align: left;">
+                <label for="b">Enter Coefficient b:</label>
+                <input type="number" id="b" class="form-control m-b-md" placeholder="Coefficient b" required>
+            </div>
+            <div class="form-group m-b-md" style="text-align: left;">
+                <label for="c">Enter Coefficient c:</label>
+                <input type="number" id="c" class="form-control m-b-md" placeholder="Coefficient c" required>
+            </div>
+            <div class="text-center">
+                <input type="button" class="btn btn-danger" value="Calculate" onclick="calc_quad()">
+            </div>
+        </form>
+        <p class="m-b-md col-md-8 text-center" id="extra-answer"></p>
+    </div>
+</body>
+</html>
