@@ -1,0 +1,1 @@
+Make a box of 200*200 and when you hover on the box it should display a picture.
