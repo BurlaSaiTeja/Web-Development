@@ -1,0 +1,32 @@
+h1 {
+    text-align:center;
+}
+div {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin-left: 40%;
+    margin-right:40%;
+    display: block;
+    text-decoration: none;
+    font: bold 18px sans-serif;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+}
+div:hover {
+    color: white;
+    height: 670px;
+    width: 300px;
+    margin-right:29%;
+    margin-left:29%;
+    margin-top:15%
+    display: block;
+    background:url('pic.JPG');
+    text-decoration: none;
+    font: bold 18px sans-serif;
+    -webkit-transition: background 2s;
+    transition: background 2s;
+}
