@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leftmost Vowel</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .box1 {
+            height: 70px;
+            width: 500px;
+            margin: auto;
+            background-color: #F5B7B1;
+        }
+        .box2 {
+            height: 70px;
+            width: 500px;
+            margin: auto;
+            background-color: #F9E79F;
+        }
+        .box3 {
+            height: 70px;
+            width: 500px;
+            margin: auto;
+            background-color: #A3E4D7;
+        }
+        .box4 {
+            height: 70px;
+            width: 500px;
+            margin: auto;
+            background-color: #D6EAF8;
+        }
+    </style>
+</head>
+<body>
+    <h1>LEFTMOST VOWEL</h1>
+    <br/>
+    <div class="boxed">
+        <script type="text/javascript">
+            var str=prompt("Enter the string:","")
+            document.write("<div class=\"box1\"><br/>STRING <br/>"+str+"<br/></div><br/><br/>")
+            str=str.toUpperCase()
+            document.write("<div class=\"box2\"><br/>CONVERTED STRING <br/>"+str+"</div><br/><br/>")
+            n=str.length
+            document.write("<div class=\"box3\"><br/>LENGTH OF STRING <br/>"+n+"</div><br/><br/>")
+            for(i=0;i<n;i++)
+            {
+                ch=str.charAt(i)
+                if( ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U' )
+                    break;
+            }
+        if(i<n)
+            document.write("<div class=\"box4\"><br/>POSITION OF LEFTMOST VOWEL <br/>"+(i+1)+"</div><br/><br/>")
+        else
+            document.write("<div class=\"box4\"><br/>POSITION OF LEFTMOST VOWEL <br/>NO VOWELS </div><br/><br/>")
+        </script>
+    </div>
+</body>
+</html>
