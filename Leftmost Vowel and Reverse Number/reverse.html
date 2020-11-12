@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reverse of Number</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .box {
+            height: 90px;
+            width: 500px;
+            margin: auto;
+            background-color: #D5D8DC;
+        }
+    </style>
+</head>
+<body>
+    <h1>REVERSE NUMBER</h1>
+    <br/>
+    <div class="box">
+    <script type="text/javascript">
+        var num=prompt("Enter the number:")
+        rev=0
+        document.write("<br/>NUMBER    "+num+"<br/><br/>")
+        while(num!=0)
+        {
+            rem=num%10;
+            rev=rev*10+rem
+            num=Math.floor(num/10)
+        }
+        document.write("REVERSE    "+rev)
+    </script>
+    </div>
+</body>
+</html>
+
+
