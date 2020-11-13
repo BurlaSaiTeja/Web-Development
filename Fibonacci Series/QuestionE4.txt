@@ -1,0 +1,3 @@
+Develop and demonstrate a HTML5 file that includes JavaScript script that uses a function for the following
+Parameter: A number
+Output: Fibonacci series with the number of terms equal to the number entered by the user
