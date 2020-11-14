@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?xml-stylesheet type="text/css" href="students.css"?>
+<studentlist>
+    <h1>STUDENT DETAILS</h1>
+    <br/>
+    <student1>
+        <USN>1CR17CE029</USN>
+        <Name>Aneesah Guevara</Name>
+        <Branch>Electronics and Communications</Branch>
+        <YearofJoin>2017</YearofJoin>
+        <College>XYZ</College>
+        <Email>angu17ce@getnada.com</Email>
+    </student1>
+    <br/>
+    <student2>
+        <USN>1CR17SC029</USN>
+        <Name>Grady Ferry</Name>
+        <Branch>Computer Science</Branch>
+        <YearofJoin>2017</YearofJoin>
+        <College>XYZ</College>
+        <Email>grfe17sc@getnada.com</Email>
+    </student2>
+    <br/>
+    <student3>
+        <USN>1CR17EE029</USN>
+        <Name>Danielius Phan</Name>
+        <Branch>Electronics and Electrical</Branch>
+        <YearofJoin>2017</YearofJoin>
+        <College>XYZ</College>
+        <Email>daph17ee@getnada.com</Email>
+    </student3>
+    <br/>
+</studentlist>
