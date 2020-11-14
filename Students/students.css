@@ -1,0 +1,60 @@
+h1
+{
+    font-size: 35px;
+    color: #2C3E50;
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+p
+{
+    font-size: 23px;
+    color: #2C3E50;
+    text-align: center;
+    display: block;
+    padding-bottom: 15px;
+}
+student1
+{
+    border:3px solid;
+    border-color: #AED6F1;
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    text-align: center;
+}
+student2
+{
+    border:3px solid;
+    border-color: #D7BDE2;
+    display: inline-block;
+    width: 25%;
+    height: 70%;
+    text-align: center;
+}
+student3
+{
+    border:3px solid;
+    border-color: #A3E4D7;
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    text-align: center;
+}
+USN, Name, Branch, YearofJoin, Email, College
+{
+    font-size: 18px;
+    color: #566573;
+    display: block;
+    padding-top: 15px;
+}
+Email
+{
+    padding-bottom: 15px;
+}
+br{
+    padding-left:100px;
+    padding-top:30px;
+    padding-bottom: 50px;
+}
