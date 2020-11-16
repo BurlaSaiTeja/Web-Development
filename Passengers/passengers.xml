@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?xml-stylesheet type="text/css" href="passengers.css"?>
+<passengerlist>
+    <h1>PASSENGER DETAILS</h1>
+    <br/>
+    <passenger1>
+        <Name>Rajesh Avani Nagarkar</Name>
+        <Airlines>British Airways</Airlines>
+        <Passport>0906991234</Passport>
+        <Visa>A0909991</Visa>
+        <Address>Tamil Nadu</Address>
+    </passenger1>
+    <passenger2>
+        <Name>Gita Rajender Mhasalkar</Name>
+        <Airlines>Kingfisher</Airlines>
+        <Passport>1406001234</Passport>
+        <Visa>T1406001</Visa>
+        <Address>Andhra Pradesh</Address>
+    </passenger2>
+    <passenger3>
+        <Name>Dhananjay Darshan D'Cruz</Name>
+        <Airlines>Emirates</Airlines>
+        <Passport>0310991234</Passport>
+        <Visa>R0310991</Visa>
+        <Address>Kerala</Address>
+    </passenger3>
+    <passenger4>
+        <Name>Lina Leela Vemulakonda</Name>
+        <Airlines>Lufthansa</Airlines>
+        <Passport>3007991234</Passport>
+        <Visa>S3007991</Visa>
+        <Address>Delhi</Address>
+    </passenger4>
+    <passenger5>
+        <Name>Kalidas Rajani Patel</Name>
+        <Airlines>Eva Air</Airlines>
+        <Passport>0509991234</Passport>
+        <Visa>R0509991</Visa>
+        <Address>Gujarat</Address>
+    </passenger5>
+</passengerlist>
