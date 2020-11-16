@@ -1,0 +1,69 @@
+h1
+{
+    font-size: 35px;
+    color: #2C3E50;
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+*{
+    display: block;
+}
+p
+{
+    font-size: 23px;
+    color: #2C3E50;
+    text-align: center;
+    display: block;
+    padding-bottom: 15px;
+}
+br
+{
+    padding-bottom: 25px;
+}
+passenger1, passenger2, passenger3, passenger4, passenger5{
+    border:3px solid;
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    text-align: center;
+}
+passenger1, passenger2, passenger3{
+    margin-left: 5.5%;
+    margin-bottom: 3.5%;
+}
+passenger4, passenger5{
+    margin-left: 16%;
+}
+passenger1
+{
+    border-color: #AED6F1;
+}
+passenger2
+{
+    border-color: #D7BDE2;
+}
+passenger3
+{
+    border-color: #A3E4D7;
+}
+passenger4
+{
+    border-color: #F9E79F;
+}
+passenger5
+{
+    border-color: #F5B7B1;
+}
+Name, Airlines, Passport, Visa, Address
+{
+    font-size: 18px;
+    color: #566573;
+    display: block;
+    padding-top: 15px;
+}
+Address
+{
+    padding-bottom: 15px;
+}
