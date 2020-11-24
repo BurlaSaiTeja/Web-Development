@@ -1,0 +1,6 @@
+Write a program to create a list of measurements in 2 sets
+Set-A, Set-B
+Convert set A measurements to set B measurements by choosing the measurements from set A and set B
+Display the converted output in textbox
+Set-A => kilometer,meter,centimeter,millimeter, micrometer, nanometer,mile,yard,foot,inch,nautical mile
+Set-B => kilometer,meter,centimeter,millimeter, micrometer, nanometer,mile,yard,foot,inch,nautical mile
