@@ -1,0 +1,9 @@
+Develop and demonstrate using PHP, a HTML document that collects the USN of the user
+The valid format is: A digit from 1 to 4 
+                     Followed by two upper-case characters 
+                     Followed by two digits 
+                     Followed by two upper-case characters 
+                     Followed by three digits
+                     No embedded spaces allowed  
+Event handler must be included for the form element that collects this information to validate the input
+Messages in the alert windows must be produced when errors are detected
